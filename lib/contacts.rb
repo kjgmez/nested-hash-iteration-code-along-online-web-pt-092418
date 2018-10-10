@@ -15,5 +15,5 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-  contacts.delete_if{|k, val| val == "strawberry"}
+  contacts.delete_if{|k, val| k == favorite_ice_cream_flavors && val == "strawberry"}
 end
