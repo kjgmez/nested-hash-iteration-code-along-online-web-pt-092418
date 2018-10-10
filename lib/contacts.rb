@@ -15,5 +15,5 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-  contacts["Freddy Mercury"][favorite_ice_cream_flavors].each{|value| value.clear if value == "strawberry"}
+  contacts["Freddy Mercury"][favorite_ice_cream_flavors].each{|x| value.clear if value == "strawberry"}
 end
