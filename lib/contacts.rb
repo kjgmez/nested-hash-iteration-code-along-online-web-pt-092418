@@ -16,5 +16,4 @@ require 'pry'
 
 def remove_strawberry(contacts)
   contacts["Freddy Mercury"][:favorite_ice_cream_flavors].each{|x| x.clear if x == "strawberry"}
-  contacts
 end
