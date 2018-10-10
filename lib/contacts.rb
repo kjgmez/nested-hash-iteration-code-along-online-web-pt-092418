@@ -15,5 +15,5 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-  contacts["Freddy Mercury"].delete_if{|k, val| val == "strawberry"}
+  contacts.delete_if{|k, val| val == "strawberry"}
 end
